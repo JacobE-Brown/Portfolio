@@ -1,7 +1,11 @@
 <script setup>
 import CustomHeader from "./components/header.vue";
 import Menu from "./components/menu.vue";
+import animatedHeader from "./components/animatedHeaderBackground.vue"
+import About from "./components/about.vue"
+
 import Switch from "./components/switch.vue"
+
 
 import {
     Dialog,
@@ -17,7 +21,10 @@ import {
         <CustomHeader />
     </header>
     <Menu />
+    <animatedHeader />
+
     <main class="">
+        <About />
         <p class="justify-center flex items-center w-5 m-auto">
             Ullam ab aut non. Facere vel voluptatum eum amet. Molestiae eos
             nulla. Autem et eos ullam. Quia sunt asperiores dolor qui eius iure

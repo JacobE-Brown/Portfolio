@@ -6,18 +6,27 @@ export default {
 </script>
 
 <template>
-    <nav class="pure-g h-[7vh] bg-orange-700 sticky top-0">
-        <div class="hide-small pure-u-md-1-2 h-full">
-            <img
-                src="https://picsum.photos/100"
-                class="h-full w-auto inline mr-4"
-            />
+    <nav class=" sticky top-0 flex justify-between h-[7vh] bg-slate-700">
+        <div class="inline h-full">
+            <img src="https://picsum.photos/100" class="h-full rounded-full" />
         </div>
-        <div class="pure-u-sm-1 pure-u-md-1-2">
-            <ul class="inline-flex flex-row-reverse">
-                <li>About Me</li>
-                <li>Projects</li>
-                <li>Contact</li>
+        <div class="inline ">
+            <ul class="inline-flex h-full">
+                <li
+                    class=" flex items-center p-1 cursor-pointer h-full border-black border rounded-md bg-slate-200 hover:bg-stone-500"
+                >
+                    About Me
+                </li>
+                <li
+                    class=" flex items-center p-1 cursor-pointer border-black border rounded-md bg-slate-200 hover:bg-stone-500"
+                >
+                    My Projects
+                </li>
+                <li
+                    class=" flex items-center p-1 cursor-pointer border-black border rounded-md bg-slate-200 hover:bg-stone-500"
+                >
+                    Contact
+                </li>
             </ul>
         </div>
     </nav>
