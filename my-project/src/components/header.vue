@@ -30,23 +30,23 @@ export default {
             </div>
             <!-- Picture and Button -->
             <div
-                id="Picture"
-                class="flex-1 md:w-2/3 p-4 md:h-full flex justify-center items-center flex-col"
+                id="Picture-Button"
+                class="flex-1 md:w-2/3 p-4 md:h-full flex justify-center items-center flex-col md:items-start"
             >
                 <!-- Picture -->
-                <div class="mb-3 border border-slate-950 rounded-full">
+                <div class="mb-3 rounded-full">
                     <img
                         src="https://picsum.photos/500"
-                        class="w-full max-w-72 md:w-auto h-auto rounded-full object-cover"
+                        class="w-full max-w-72 md:w-full h-auto rounded-full object-cover mb-7"
                     />
-                </div>
-                <!-- Button -->
-                <div class="flex justify-center">
-                    <button
-                        class="text-center bg-red-700 border border-black rounded-md p-4 px-7 hover:bg-red-400"
-                    >
-                        About Me
-                    </button>
+                    <!-- Button -->
+                    <div class="flex justify-center">
+                        <button
+                            class="text-center bg-red-700 border border-black rounded-md p-4 px-7 hover:bg-red-400"
+                        >
+                            About Me
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
