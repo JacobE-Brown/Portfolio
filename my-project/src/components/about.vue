@@ -5,7 +5,7 @@ export default {
 </script>
 
 <template>
-    <div class=" bg-amber-400">
-        <h3>About ME</h3>
+    <div class="h-[93vh]">
+        <p>Hello WOrld</p>
     </div>
 </template>
