@@ -1,29 +1,27 @@
 <script setup>
-import CustomHeader from "./components/header.vue";
-import Menu from "./components/menu.vue";
-import animatedHeader from "./components/animatedHeaderBackground.vue";
-import About from "./components/about.vue";
-
-import Switch from "./components/switch.vue";
+    import CustomBanner from "./components/banner.vue";
+    import Menu from "./components/menu.vue";
+    import About from "./components/aboutPage.vue";
+    import projectsPage from "./components/projectsPage.vue";
+    import contactPage from "./components/contactPage.vue";
 </script>
 
 <template>
-    <div class="h-screen overflow-y-scroll scroll- snap-y snap-mandatory">
-        <CustomHeader class="h-[93vh] snap-start bg-green-200 scroll-m-[7vh]" />
-        <div class="no-snap-element sticky top-0">
+    <div class="overflow-y-scroll mx-auto h-screen snap-y snap-mandatory">
+        <header class="h-[93vh] snap-start scroll-m-[7vh]">
+            <CustomBanner />
+        </header>
+        <div class="sticky top-0 no-snap-element">
             <Menu />
         </div>
-        <section class="h-[93vh] snap-start bg-green-200 scroll-m-[7vh]">
-            <p>Hello World!</p>
+        <section class="h-[93vh] snap-start scroll-m-[7vh]">
+            <About />
         </section>
-        <section class="h-[93vh] snap-start bg-green-200 scroll-m-[7vh]">
-            <p>Hello World!</p>
+        <section class="h-[93vh] snap-start scroll-m-[7vh]">
+            <projectsPage></projectsPage>
         </section>
-        <section class="h-[93vh] snap-start bg-green-200 scroll-m-[7vh]">
-            <p>Hello World!</p>
-        </section>
-        <section class="h-[93vh] snap-start bg-green-200 scroll-m-[7vh]">
-            <p>Hello World!</p>
+        <section class="h-[93vh] snap-start scroll-m-[7vh]">
+            <contactPage></contactPage>
         </section>
     </div>
 </template>
