@@ -7,20 +7,32 @@
 </script>
 
 <template>
-    <div class="overflow-y-scroll mx-auto h-screen snap-y snap-mandatory">
-        <header class="h-[93vh] snap-start scroll-m-[7vh]">
+    <div class="overflow-y-scroll mx-auto h-screen snap-y snap-mandatory scroll-smooth">
+        <header
+            id="Home"
+            class="h-[93vh] snap-start scroll-m-[7vh]"
+        >
             <CustomBanner />
         </header>
         <div class="sticky top-0 no-snap-element">
             <Menu />
         </div>
-        <section class="h-[93vh] snap-start scroll-m-[7vh]">
+        <section
+            id="AboutMe"
+            class="h-[93vh] snap-start scroll-m-[7vh]"
+        >
             <About />
         </section>
-        <section class="h-[93vh] snap-start scroll-m-[7vh]">
+        <section
+            id="MyProjects"
+            class="h-[93vh] snap-start scroll-m-[7vh]"
+        >
             <projectsPage></projectsPage>
         </section>
-        <section class="h-[93vh] snap-start scroll-m-[7vh]">
+        <section
+            id="ContactMe"
+            class="h-[93vh] snap-start scroll-m-[7vh]"
+        >
             <contactPage></contactPage>
         </section>
     </div>
