@@ -16,7 +16,7 @@
             >
                 <div class="object-cover w-full h-full">
                     <slot name="projectImg">
-                        <img src="https://picsum.photos/500/300" class="object-cover w-full h-full" />
+                        <img src="https://picsum.photos/500/300" class="object-cover w-full h-full" loading="lazy" />
                     </slot>
                 </div>
             </div>

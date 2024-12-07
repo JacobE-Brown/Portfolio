@@ -1,5 +1,5 @@
 <script setup>
-    import CustomBanner from "./components/banner.vue";
+    import CustomBanner from "./components/MainBanner.vue";
     import Menu from "./components/menu.vue";
     import About from "./components/aboutPage.vue";
     import projectsPage from "./components/projectsPage.vue";

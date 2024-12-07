@@ -23,8 +23,9 @@
                             </template>
                             <template #projectImg>
                                 <img
-                                    src="/public/assets/photos/maxwell-cat-cat.gif"
+                                    src="/src/assets/photos/maxwell-cat-cat.gif"
                                     class="object-cover w-full h-full"
+                                    loading="lazy"
                                 />
                             </template>
                             <template #content>
