@@ -11,7 +11,7 @@
 
 <template>
     <div
-        class="h-[93vh] w-full overflow-y-auto mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 p-10">
+        class="h-[93vh] w-full overflow-y-auto mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 p-1 md:p-6 lg:p-8">
         <ContentBlock class="order-2 md:order-3">
             <template #contentHeader>
                 <slot name="header1">Content Header</slot>

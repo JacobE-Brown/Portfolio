@@ -10,7 +10,7 @@
 </script>
 
 <template>
-    <article class="flex overflow-y-auto flex-col gap-3 h-full">
+    <article class="flex overflow-y-auto flex-col gap-2 h-full md:gap-5">
         <HeaderText>
             <slot name="contentHeader">Header Text</slot>
         </HeaderText>

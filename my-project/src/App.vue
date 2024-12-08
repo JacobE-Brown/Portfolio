@@ -4,6 +4,7 @@
     import About from "./components/aboutPage.vue";
     import projectsPage from "./components/projectsPage.vue";
     import contactPage from "./components/contactPage.vue";
+    import CustomFooter from "./components/footer.vue";
 </script>
 
 <template>
@@ -31,10 +32,13 @@
         </section>
         <section
             id="ContactMe"
-            class="h-[93vh] snap-start scroll-m-[7vh]"
+            class="h-[86vh] snap-start scroll-m-[7vh]"
         >
             <contactPage></contactPage>
         </section>
+        <footer>
+            <CustomFooter></CustomFooter>
+        </footer>
     </div>
 </template>
 
