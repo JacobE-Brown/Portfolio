@@ -1,6 +1,6 @@
 <script>
-    import PageDoubleColumnContainer from "./PageDoubleColumnContainer.vue";
-    import ProjectCard from "./projectCard.vue";
+    import PageDoubleColumnContainer from "../components/PageDoubleColumnContainer.vue";
+    import ProjectCard from "../components/projectCard.vue";
     export default {
         name: "projects",
         components: {
@@ -11,7 +11,27 @@
 </script>
 <template>
     <PageDoubleColumnContainer>
-        <template #header2>My Projects</template>
+        <template #header1>My Projects</template>
+        <template #content1>
+            <div
+                class="flex flex-col gap-5 p-5 w-full h-full font-serif font-medium md:text-2xl"
+            >
+                <p>
+                    I have worked with several Javascript different Frameworks
+                    as the Project examples will show.
+                </p>
+                <p>
+                    I have worked with React.JS, Vue.js, Svelte.js, BootStrap 5,
+                    Tailwind CSS, Sass, TypeScript, and more.
+                </p>
+                <p>
+                    I always love to learn new tools. In general I like
+                    unopinionated Frameworks and Libraries that give me controle
+                    to design applications exactly as they are needed.
+                </p>
+            </div></template
+        >
+        <template #header2>Project Examples</template>
         <template #content2>
             <div class="h-full">
                 <div class="grid grid-cols-1 gap-5 p-5 h-full lg:grid-cols-2">
@@ -39,8 +59,9 @@
                                 </p>
                                 <p>
                                     I am particularly proud of the SVG animation
-                                    I was able to accomplish by exporting it from
-                                    inkscape and animating the peices with css.
+                                    I was able to accomplish by exporting it
+                                    from inkscape and animating the peices with
+                                    css.
                                 </p>
                             </template>
                         </ProjectCard></a

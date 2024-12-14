@@ -1,9 +1,9 @@
 <script setup>
     import CustomBanner from "./components/MainBanner.vue";
     import Menu from "./components/menu.vue";
-    import About from "./components/aboutPage.vue";
-    import projectsPage from "./components/projectsPage.vue";
-    import contactPage from "./components/contactPage.vue";
+    import About from "./pages/aboutPage.vue";
+    import projectsPage from "./pages/projectsPage.vue";
+    import contactPage from "./pages/contactPage.vue";
     import CustomFooter from "./components/footer.vue";
 </script>
 

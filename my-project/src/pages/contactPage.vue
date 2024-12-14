@@ -1,6 +1,6 @@
 <script>
-    import ContentBlock from "./contentBlock.vue";
-    import CustomFooter from "./footer.vue";
+    import ContentBlock from "../components/contentBlock.vue";
+    import CustomFooter from "../components/footer.vue";
 
     export default {
         name: "projects",

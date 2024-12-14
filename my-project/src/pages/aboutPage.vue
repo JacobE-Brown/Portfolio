@@ -1,5 +1,5 @@
 <script>
-    import doubleContainer from "./PageDoubleColumnContainer.vue";
+    import doubleContainer from "../components/PageDoubleColumnContainer.vue";
     export default {
         name: "about",
         components: {
@@ -13,7 +13,8 @@
         <template #header1>About Me</template>
         <template #content1>
             <div
-                class="flex flex-col gap-5 p-5 w-full h-full font-serif font-medium md:text-2xl">
+                class="flex flex-col gap-5 p-5 w-full h-full font-serif font-medium md:text-2xl"
+            >
                 <p>
                     I first graduated from <i>Magdalen College</i> in May of
                     2023 with a degree in the
@@ -42,27 +43,18 @@
                 </p>
             </div>
         </template>
-        <template #header2>MY GLORIOUS THESIS!!!!!</template>
+        <template #header2>My Skills</template>
         <template #content2>
-            <!-- <div class="w-full h-full nt:hidden md:block">
-
-                <object
-                    data="/public/documents/BrownJacobThesis.pdf#zoom=75"
-                    type="application/pdf"
-                    class="w-full h-full"></object>
+            <div class="flex flex-col justify-center items-center h-full">
+                <ul class="flex gap-5">
+                    <li class="p-6 text-xl rounded-xl border hover:scale-105 borer-2 border-Ebony-600 bg-roman-coffee-300">React</li>
+                    <li class="p-6 text-xl rounded-xl border hover:scale-105 borer-2 border-Ebony-600 bg-roman-coffee-300">Vue</li>
+                    <li class="p-6 text-xl rounded-xl border hover:scale-105 borer-2 border-Ebony-600 bg-roman-coffee-300">Tailwind CSS</li>
+                    <li class="p-6 text-xl rounded-xl border hover:scale-105 borer-2 border-Ebony-600 bg-roman-coffee-300">Bootstrap 5</li>
+                    <li class="p-6 text-xl rounded-xl border hover:scale-105 borer-2 border-Ebony-600 bg-roman-coffee-300">Svelte</li>
+                    <li class="p-6 text-xl rounded-xl border hover:scale-105 borer-2 border-Ebony-600 bg-roman-coffee-300">Sass</li>
+                </ul>
             </div>
-
-            <div class="md:hidden">
-                <p class="p-5">
-                    This is the thesis I wrote for the completion of my
-                    batchulars degree at Magdalen College.
-                </p>
-                <a href="/public/documents/BrownJacobThesis.pdf"
-                    ><img
-                        src="../assets/CoverPage_page-0001.jpg"
-                        alt="Jacob Brown Thesis On The Nature of History"
-                /></a>
-            </div> -->
         </template>
     </doubleContainer>
 </template>
