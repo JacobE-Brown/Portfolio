@@ -43,7 +43,7 @@
         <div class="m-3">
             <img
                 class="rounded-full max-h-[45vh] md:max-h-[85vh] animate__fadeIn animate__animated animate__delay-2s"
-                src="/src/assets/photos/Frosty-Cat.jpeg"
+                src="/public/images/IMG_9288.jpg"
                 loading="eager"
                 fetchpriority="high"
                 decoding="async"
