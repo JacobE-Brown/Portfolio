@@ -1,3 +1,4 @@
+75db84f - Jacob Brown, 2024-12-13 23:51:23 -0700 : Finished up what I could.
 2ae3d45 - Jacob Brown, 2024-12-13 23:24:31 -0700 : Added my Projects
 012828e - Jacob Brown, 2024-12-07 18:24:49 -0700 : Added the Contact Form and some simple regex, needs more polishing and testing.
 de51a82 - Jacob Brown, 2024-12-07 16:02:05 -0700 : Navigation menu now works

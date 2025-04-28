@@ -14,10 +14,14 @@
     <div class="h-[7vh] bg-slate-700 z-30">
         <nav class="mx-auto flex justify-between h-[7vh]">
             <div class="inline-flex items-center h-full">
-                <img
-                    src="https://picsum.photos/100"
-                    class="h-full rounded-full"
-                />
+                <a href="#Home" class="flex items-center p-1 h-2/3 rounded-full border border-black cursor-pointer items-cente h bg-slate-200 hover:bg-stone-500">
+                    <img
+                        src="/public/images/th-3998094042.jpg"
+                        class="h-full rounded-full"
+                        alt="home"
+                    />
+                </a>
+
                 <h2 class="hidden md:block">{{ currentSection }}</h2>
             </div>
             <div class="inline">
